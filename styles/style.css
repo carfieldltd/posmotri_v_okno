@@ -218,3 +218,37 @@ button:focus-visible {
   outline: 1px solid #fff;
   outline-offset: 1px;
 }
+
+.search-form__submit-button {
+  width: 194px;
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  line-height: 70.5px;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+.content__accent {
+  color: #545050;
+}
+
+.content__details {
+  display: flex;
+  flex-direction: column;
+  min-width: 399px;
+  gap: 26px;
+ }
+
+.content__list {
+  position: relative;
+  height: 300px;
+  overflow-y: auto;
+}
+
+.content__list-item:not(:last-of-type) {
+ margin-bottom: 30px;
+ }
